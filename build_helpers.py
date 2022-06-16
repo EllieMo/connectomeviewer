@@ -113,10 +113,10 @@ class Clean(clean):
         clean.run(self)
         api_path = os.path.join('doc', 'api', 'generated')
         if os.path.exists(api_path):
-            print "Removing %s" % api_path
+            print("Removing %s" % api_path)
             shutil.rmtree(api_path)
         if os.path.exists(DOC_BUILD_DIR):
-            print "Removing %s" % DOC_BUILD_DIR 
+            print("Removing %s" % DOC_BUILD_DIR)
             shutil.rmtree(DOC_BUILD_DIR)
 
 # The command classes for distutils, used by the setup.py
