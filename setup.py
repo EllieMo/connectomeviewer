@@ -31,7 +31,7 @@ def _mayavi_version(pkg_name):
 
 def _traits_version(pkg_name):
     from traits import version
-    return version.__version__
+    return traits.__version__
 
 # Check for core dependencies
 package_check('numpy', INFO_VARS['numpy_min_version'])
