@@ -30,7 +30,7 @@ def _mayavi_version(pkg_name):
     return version.version
 
 def _traits_version(pkg_name):
-    Import traits
+    import traits
     return traits.__version__
 
 # Check for core dependencies
